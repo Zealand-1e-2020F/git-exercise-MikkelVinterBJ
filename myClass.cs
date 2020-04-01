@@ -17,7 +17,7 @@ namespace GitExercise
 
         public override string ToString()
         {
-            return $"My name is {navn}, and i live in {adresse}, and my postnr is {postnr}";
+            return $"Mit navn {navn}og jeg bor på {adresse}, min by hedder {by} og mit postnummer er {postnr}";
         }
     }
 }
