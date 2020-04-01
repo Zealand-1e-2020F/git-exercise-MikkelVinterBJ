@@ -7,9 +7,11 @@ namespace GitExercise
         private int postnr {get; set;}
     
 
-    public myClass(string navn)
+    public myClass(string navn, string adresse, int postnr)
     {
         this.navn = navn;
+        this.adresse = adresse;
+        this.postnr = postnr;
     }
 }
 }
