@@ -2,9 +2,10 @@ namespace GitExercise
 {
     class myClass
     {
-        private string navn{ get; set; }
-        private string adresse {get; set;}
-        private int postnr {get; set;}
+        private string navn{ get;}
+        private string adresse {get;}
+        private int postnr {get;}
+        private string by {get;}
     
 
         public myClass(string navn, string adresse, int postnr)
